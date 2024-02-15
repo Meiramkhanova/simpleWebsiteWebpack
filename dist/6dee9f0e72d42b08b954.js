@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelectorAll(".nav-links a");e.forEach((t=>{t.addEventListener("click",(function(n){var a;n.preventDefault(),a=t,e.forEach((e=>{e.classList.remove("active")})),a.classList.add("active")}))}))}));
